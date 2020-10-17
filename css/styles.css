@@ -1,0 +1,69 @@
+body {
+  background-image: url(../images/Rivendel.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+}
+
+.box {
+  width: 350px;
+  height: 550px;
+  margin-top: 70px;
+  color: rgba(255, 255, 255, 0.8);
+  background-color: rgba(10, 10, 10, 0.7);
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.input {
+  color: white;
+  margin-bottom: 30px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.create {
+  width: 500px;
+  height: 50px;
+  margin-top: 100px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  color:rgb(255, 0, 13);
+}
+
+.success {
+  color:rgb(0, 255, 0)
+}
